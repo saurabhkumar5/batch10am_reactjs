@@ -1,8 +1,60 @@
-p{
+ /* p{
   background-color: aqua;
   text-align: center;
 }
 img{
   width: 300px;
   height: 300px;
+  margin: 10px;
 }
+.home{
+  width: 500px;
+  height: 500px;
+}
+#home{
+  width: 800px;
+  height: 800px;
+} */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  height: 50px;
+  margin-bottom: 20px;
+
+}
+ span{
+  margin: 15px;
+}
+/*
+.box{
+  width: 400px;
+  height: 500px;
+  border: 3px solid black;
+  margin: 10px;
+}
+.nature{
+  width: 400px;
+  height: 400px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+} */ 
+
+
+
+
+.box img{
+  width: 100%;
+  border-radius: 10%;
+}
+
+.container{
+  display: flex;
+}
+
+
+
+ 
