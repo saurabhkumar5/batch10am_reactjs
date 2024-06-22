@@ -16,17 +16,6 @@ img{
   height: 800px;
 } */
 
-.header{
-  display: flex;
-  justify-content: space-between;
-  background-color: aqua;
-  height: 50px;
-  margin-bottom: 20px;
-
-}
- span{
-  margin: 15px;
-}
 /*
 .box{
   width: 400px;
@@ -53,6 +42,7 @@ img{
 
 .container{
   display: flex;
+  flex-wrap: wrap;
 }
 
 

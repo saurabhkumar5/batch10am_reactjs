@@ -1,0 +1,12 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 50px;
+    margin-bottom: 20px;
+  
+  }
+   span{
+    margin: 15px;
+  }
