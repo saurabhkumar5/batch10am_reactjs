@@ -161,6 +161,8 @@ import Header from "./header/Header";
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Services from "./header/services/Services";
 import Mobile from "./header/services/Mobile";
+import Contact from "./header/Contact";
+import Footer from "./footer/Footer";
 
 function App() {
 
@@ -173,8 +175,11 @@ function App() {
              <Route path="/" element={<Body/>}/>
              <Route path="/about" element={<About/>}/>
              <Route path="/services" element={<Services/>}/>
+             <Route path="/contact" element={<Contact/>}/>
+             <Route path="*" element={<h1>Error, page not found</h1>}/>
            </Routes>
            
+           <Footer/>
         </BrowserRouter>
        </div>
   );
